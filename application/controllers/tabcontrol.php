@@ -10,7 +10,7 @@ class tabcontrol extends CI_Controller
     }
 
     public function test_db() {
-        $query = $this->db->get('tab');
+        $query = $this->db->get('users');
         echo '<pre>';
         print_r($query->result());
         echo '</pre>';
